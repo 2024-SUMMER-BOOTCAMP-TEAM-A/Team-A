@@ -9,7 +9,7 @@ pipeline {
         MYSQL_PASSWORD="${env.MYSQL_PASSWORD}"
         NODE_ENV="${env.NODE_ENV}"
         TZ="${env.TZ}"
-        DEPLOY_SERVER="34.83.113.214"
+        DEPLOY_SERVER="angal2310@34.83.113.214"
     }
 
     stages {
