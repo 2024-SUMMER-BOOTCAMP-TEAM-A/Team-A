@@ -42,6 +42,7 @@ pipeline {
                         sh """
                         scp -o StrictHostKeyChecking=no ${DOCKER_COMPOSE_FILE} ${DEPLOY_SERVER}:~/${DOCKER_COMPOSE_FILE}
                         ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} '
+                        cd ~ &&
                         docker-compose pull &&
                         docker-compose up -d'
                         """
