@@ -2,12 +2,14 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_COMPOSE_FILE = 'docker-compose-prod.yml'
-        // SQLALCHEMY_DATABASE_URL="${env.SQLALCHEMY_DATABASE_URL}"
-        // MYSQL_ROOT_PASSWORD="${env.MYSQL_ROOT_PASSWORD}"
-        // MYSQL_DATABASE="${env.MYSQL_DATABASE}"
-        // MYSQL_USER="${env.MYSQL_USER}"
-        // MYSQL_PASSWORD="${env.MYSQL_PASSWORD}"
+        DOCKER_COMPOSE_FILE = 'docker-compose-deploy.yml'
+        MYSQL_ROOT_PASSWORD="${env.MYSQL_ROOT_PASSWORD}"
+        MYSQL_DATABASE="${env.MYSQL_DATABASE}"
+        MYSQL_USER="${env.MYSQL_USER}"
+        MYSQL_PASSWORD="${env.MYSQL_PASSWORD}"
+        NODE_ENV="${env.NODE_ENV}"
+        TZ="${env.TZ}"
+        DEPLOY_SERVER="34.83.113.214"
     }
 
     stages {
@@ -27,27 +29,26 @@ pipeline {
             }
         }
 
-    //     stage('Build') {
-    //         steps {
-    //             script {
-    //                 sh "docker compose -f ${DOCKER_COMPOSE_FILE} build"
-    //             }
-    //         }
-    //     }
-
-    //     stage('Deploy') {
-    //         when {
-    //             anyOf {
-    //                 branch 'main'
-    //                 branch 'master'
-    //             }
-    //         }
-    //         steps {
-    //             script {
-    //                 sh "docker compose -f ${DOCKER_COMPOSE_FILE} up -d"
-    //             }
-    //         }
-    //     }
+        stage('Deploy') {
+            when {
+                anyOf {
+                    branch 'main'
+                    branch 'master'
+                }
+            }
+            steps {
+                script {
+                    sshagent(['deploy-ssh']) {
+                        sh """
+                        scp -o StrictHostKeyChecking=no ${DOCKER_COMPOSE_FILE} ${DEPLOY_SERVER}:~/${DOCKER_COMPOSE_FILE}
+                        ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} '
+                        docker-compose pull &&
+                        docker-compose up -d'
+                        """
+                    }
+                }
+            }
+        }
     }
 
     post {
