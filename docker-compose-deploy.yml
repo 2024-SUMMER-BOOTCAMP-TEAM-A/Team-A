@@ -22,7 +22,7 @@ services:
 
   node:
     container_name: node
-    image: jungeunyoon/teama-backend:1.0.8
+    image: jungeunyoon/teama-backend:1.0.9
     restart: always
     environment:
       - TZ=Asia/Seoul
