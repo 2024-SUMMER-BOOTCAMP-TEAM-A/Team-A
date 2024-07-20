@@ -78,7 +78,7 @@ services:
 
   node:
     container_name: node
-    image: jungeunyoon/teama-backend:1.0.65
+    image: jungeunyoon/teama-backend:1.0.66
     restart: always
     environment:
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
@@ -103,13 +103,12 @@ services:
       - GCP_PRIVATE_KEY_ID=${GCP_PRIVATE_KEY_ID}
       - GCP_PRIVATE_KEY=${GCP_PRIVATE_KEY}
       - GCP_CLIENT_EMAIL=${GCP_CLIENT_EMAIL}
-      - GCP_CLIENT_ID=${GCP_CLIENT_ID}
       - GCP_AUTH_URI=${GCP_AUTH_URI}
       - GCP_TOKEN_URI=${GCP_TOKEN_URI}
       - GCP_AUTH_PROVIDER_X509_CERT_URL=${GCP_AUTH_PROVIDER_X509_CERT_URL}
       - GCP_CLIENT_X509_CERT_URL=${GCP_CLIENT_X509_CERT_URL}
       - GCP_UNIVERSE_DOMAIN=${GCP_UNIVERSE_DOMAIN}
-      - MONGO_DOCKER_URL=${MONGO_DOCKER_URL}
+      - MONGO_DOCKER_URL=${MONGODB_DOCKER_URL}
     ports:
       - '8000:8000'
     depends_on:

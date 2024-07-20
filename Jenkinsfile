@@ -32,13 +32,12 @@ pipeline {
         GCP_PRIVATE_KEY_ID="${GCP_PRIVATE_KEY_ID}"
         GCP_PRIVATE_KEY="${GCP_PRIVATE_KEY}"
         GCP_CLIENT_EMAIL="${GCP_CLIENT_EMAIL}"
-        GCP_CLIENT_ID="${GCP_CLIENT_ID}"
         GCP_AUTH_URI="${GCP_AUTH_URI}"
         GCP_TOKEN_URI="${GCP_TOKEN_URI}"
         GCP_AUTH_PROVIDER_X509_CERT_URL="${GCP_AUTH_PROVIDER_X509_CERT_URL}"
         GCP_CLIENT_X509_CERT_URL="${GCP_CLIENT_X509_CERT_URL}"
         GCP_UNIVERSE_DOMAIN="${GCP_UNIVERSE_DOMAIN}"
-        MONGO_DOCKER_URL="${MONGO_DOCKER_URL}"
+        MONGO_DOCKER_URL="${MONGODB_DOCKER_URL}"
     }
 
     stages {
@@ -97,13 +96,12 @@ pipeline {
                         export GCP_PRIVATE_KEY_ID="${GCP_PRIVATE_KEY_ID}" &&
                         export GCP_PRIVATE_KEY="${GCP_PRIVATE_KEY}" &&
                         export GCP_CLIENT_EMAIL="${GCP_CLIENT_EMAIL}" &&
-                        export GCP_CLIENT_ID="${GCP_CLIENT_ID}" &&
                         export GCP_AUTH_URI="${GCP_AUTH_URI}" &&
                         export GCP_TOKEN_URI="${GCP_TOKEN_URI}" &&
                         export GCP_AUTH_PROVIDER_X509_CERT_URL="${GCP_AUTH_PROVIDER_X509_CERT_URL}" &&
                         export GCP_CLIENT_X509_CERT_URL="${GCP_CLIENT_X509_CERT_URL}" &&
                         export GCP_UNIVERSE_DOMAIN="${GCP_UNIVERSE_DOMAIN}" &&
-                        export MONGO_DOCKER_URL="${MONGO_DOCKER_URL}" &&
+                        export MONGO_DOCKER_URL="${MONGODB_DOCKER_URL}" &&
                         cd ~ &&
                         ls -al &&
                         docker compose -f ${DOCKER_COMPOSE_FILE} down --remove-orphans &&
