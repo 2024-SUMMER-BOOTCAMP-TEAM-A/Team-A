@@ -42,7 +42,7 @@ services:
     networks:
       - app-network
 
-  mongo:
+  mongodb:
     container_name: mongodb
     image: mongo
     ports:
