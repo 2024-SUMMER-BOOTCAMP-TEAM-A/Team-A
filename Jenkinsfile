@@ -56,6 +56,7 @@ pipeline {
                     sh "docker --version"
                     sh "docker compose --version"
                     sh "echo hello world!"
+                    sh "echo ${ELEVENLABS_API_KEY}" 
                 }
             }
         }
