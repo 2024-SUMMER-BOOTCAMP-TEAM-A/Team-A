@@ -16,22 +16,11 @@ services:
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
     volumes:
-      - db_data:/var/lib/mysql  # MySQL 데이터베이스를 위한 가상 볼륨 설정
-    networks:
-      - app-network
-
-  node:
-    container_name: node
-    image: jungeunyoon/teama-backend:1.0.9
-    restart: always
-    environment:
-      - TZ=Asia/Seoul
-      - NODE_ENV=development
-    ports:
-      - '8000:8000'
-    depends_on:
-      - db
-    command: npm start # 컨테이너가 시작될 때 실행할 명령
+      - db_data:/var/lib/mysql
+    # 한글 설정
+    command: 
+      - --character-set-server=utf8mb4 
+      - --collation-server=utf8mb4_general_ci
     networks:
       - app-network
 
@@ -48,46 +37,73 @@ services:
     container_name: redis_insight
     ports:
       - "5540:5540"
-    restart: always
+    depends_on:
+      - redis
     networks:
       - app-network
 
-  mongodb:
-    image: mongo:latest
+  mongo:
     container_name: mongo
+    image: mongo
     ports:
-        - "27017:27017"
+      - "27017:27017"
     environment:
-        - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
-        - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
-    volumes:
-      - mongodb:/data/db  # MongoDB 데이터베이스를 위한 가상 볼륨 설정
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
     networks:
-        - app-network
-    hostname: mongodb
-    
-  mongodb_insight:  
+      - app-network
+    volumes:
+      - mongodb:/data/db
+    command: ["mongod", "--auth"]
+    hostname: mongo
+
+  mongo_express:
     image: mongo-express:latest
     container_name: mongo_insight
     depends_on:
-      - mongodb
+      - mongo
     ports:
-        - "8888:8081"
+      - "8081:8081"
     environment:
-        - ME_CONFIG_MONGODB_SERVER=mongodb
-        - ME_CONFIG_MONGODB_PORT=27017
-        - ME_CONFIG_MONGODB_ENABLE_ADMIN=false
-        - ME_CONFIG_MONGODB_AUTH_DATABASE=admin
-        - ME_CONFIG_MONGODB_ADMINUSERNAME=${MONGO_INITDB_ROOT_USERNAME}
-        - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
-        - ME_CONFIG_BASICAUTH_USERNAME=${MONGOEXPRESS_LOGIN}
-        - ME_CONFIG_BASICAUTH_PASSWORD=${MONGOEXPRESS_PASSWORD}
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_MONGODB_PORT=27017
+      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - ME_CONFIG_BASICAUTH_USERNAME=${MONGOEXPRESS_LOGIN}
+      - ME_CONFIG_BASICAUTH_PASSWORD=${MONGOEXPRESS_PASSWORD}
     networks:
-        - app-network
+      - app-network
     hostname: mongo-express
 
+  node:
+    container_name: node
+    image: jungeunyoon/teama-backend:1.0.54
+    restart: always
+    environment:
+      - TZ=Asia/Seoul
+      - NODE_ENV=development
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - REDIS_URL=redis://redis:6379
+      - MYSQL_HOST=db
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - GOOGLE_CLOUD_PROJECT=rare-bloom-416113 
+      - GCLOUD_STORAGE_BUCKET=logs_image
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
+      - redis
+      - mongo
+    command: npm start # 컨테이너가 시작될 때 실행할 명령
+    networks:
+      - app-network
+
   front:
-    image: jungeunyoon/team-a-frontend:1.0.3
+    image: jungeunyoon/team-a-frontend:1.0.50
     container_name: front
     ports:
       - "3000:3000"
