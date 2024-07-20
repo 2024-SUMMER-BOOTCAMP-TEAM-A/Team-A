@@ -15,8 +15,6 @@ pipeline {
         ME_CONFIG_MONGODB_SERVER="mongodb"
         ME_CONFIG_MONGODB_PORT="27017"
         ME_CONFIG_MONGODB_ENABLE_ADMIN="true"
-        ME_CONFIG_MONGODB_ADMINUSERNAME="${ME_CONFIG_MONGODB_ADMINUSERNAME}" 
-        ME_CONFIG_MONGODB_ADMINPASSWORD="${ME_CONFIG_MONGODB_ADMINPASSWORD}"
         MONGOEXPRESS_LOGIN="${MONGOEXPRESS_LOGIN}"
         MONGOEXPRESS_PASSWORD="${MONGOEXPRESS_PASSWORD}"
         REDIS_URL="redis://redis:6379"
@@ -82,8 +80,6 @@ pipeline {
                         export TZ="${TZ}" &&
                         export MONGO_INITDB_ROOT_USERNAME="${MONGO_INITDB_ROOT_USERNAME}" &&
                         export MONGO_INITDB_ROOT_PASSWORD="${MONGO_INITDB_ROOT_PASSWORD}" &&
-                        export ME_CONFIG_MONGODB_ADMINUSERNAME="${ME_CONFIG_MONGODB_ADMINUSERNAME}" &&
-                        export ME_CONFIG_MONGODB_ADMINPASSWORD="${ME_CONFIG_MONGODB_ADMINPASSWORD}" &&
                         export MONGOEXPRESS_LOGIN="${MONGOEXPRESS_LOGIN}" &&
                         export MONGOEXPRESS_PASSWORD="${MONGOEXPRESS_PASSWORD}" &&
                         export REDIS_URL="redis://redis:6379" &&
