@@ -78,11 +78,9 @@ services:
 
   node:
     container_name: node
-    image: jungeunyoon/teama-backend:1.0.54
+    image: jungeunyoon/teama-backend:1.0.57
     restart: always
     environment:
-      - TZ=Asia/Seoul
-      - NODE_ENV=development
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
       - REDIS_URL=redis://redis:6379
@@ -90,8 +88,16 @@ services:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-      - GOOGLE_CLOUD_PROJECT=rare-bloom-416113 
-      - GCLOUD_STORAGE_BUCKET=logs_image
+      - GOOGLE_CLOUD_PROJECT=${GOOGLE_CLOUD_PROJECT}
+      - GCLOUD_STORAGE_BUCKET=${GCLOUD_STORAGE_BUCKET}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CLOVA_API_KEY=${CLOVA_API_KEY}
+      - CLOVA_CLIENT_ID=${CLOVA_CLIENT_ID}
+      - JWT_SECRET=${JWT_SECRET}
+      - REFRESH_TOKEN_SECRET=${REFRESH_TOKEN_SECRET}
+      - TTS_API_KEY=${TTS_API_KEY}
+      - NODE_ENV=${NODE_ENV}
+      - TZ=${TZ}
     ports:
       - '8000:8000'
     depends_on:
