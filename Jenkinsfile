@@ -56,7 +56,6 @@ pipeline {
                     sh "docker --version"
                     sh "docker compose --version"
                     sh "echo hello world!"
-                    sh "echo ${ELEVENLABS_API_KEY}" 
                 }
             }
         }
@@ -74,9 +73,42 @@ pipeline {
                         sh """
                         scp -o StrictHostKeyChecking=no ${DOCKER_COMPOSE_FILE} ${DEPLOY_SERVER}:~/${DOCKER_COMPOSE_FILE}
                         ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} '
+                        export MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" &&
+                        export MYSQL_DATABASE="${MYSQL_DATABASE}" &&
+                        export MYSQL_USER="${MYSQL_USER}" &&
+                        export MYSQL_PASSWORD="${MYSQL_PASSWORD}" &&
+                        export NODE_ENV="${NODE_ENV}" &&
+                        export TZ="${TZ}" &&
+                        export MONGO_INITDB_ROOT_USERNAME="${MONGO_INITDB_ROOT_USERNAME}" &&
+                        export MONGO_INITDB_ROOT_PASSWORD="${MONGO_INITDB_ROOT_PASSWORD}" &&
+                        export ME_CONFIG_MONGODB_ADMINUSERNAME="${ME_CONFIG_MONGODB_ADMINUSERNAME}" &&
+                        export ME_CONFIG_MONGODB_ADMINPASSWORD="${ME_CONFIG_MONGODB_ADMINPASSWORD}" &&
+                        export ME_CONFIG_BASICAUTH_USERNAME="${ME_CONFIG_BASICAUTH_USERNAME}" &&
+                        export ME_CONFIG_BASICAUTH_PASSWORD="${ME_CONFIG_BASICAUTH_PASSWORD}" &&
+                        export REDIS_URL="redis://redis:6379" &&
+                        export MYSQL_HOST="db" &&
+                        export GOOGLE_CLOUD_PROJECT="${GOOGLE_CLOUD_PROJECT}" &&
+                        export GCLOUD_STORAGE_BUCKET="${GCLOUD_STORAGE_BUCKET}" &&
+                        export OPENAI_API_KEY="${OPENAI_API_KEY}" &&
+                        export CLOVA_API_KEY="${CLOVA_API_KEY}" &&
+                        export CLOVA_CLIENT_ID="${CLOVA_CLIENT_ID}" &&
+                        export JWT_SECRET="${JWT_SECRET}" &&
+                        export REFRESH_TOKEN_SECRET="${REFRESH_TOKEN_SECRET}" &&
+                        export ELEVENLABS_API_KEY="${ELEVENLABS_API_KEY}" &&
+                        export GCP_TYPE="${GCP_TYPE}" &&
+                        export GCP_PROJECT_ID="${GCP_PROJECT_ID}" &&
+                        export GCP_PRIVATE_KEY_ID="${GCP_PRIVATE_KEY_ID}" &&
+                        export GCP_PRIVATE_KEY="${GCP_PRIVATE_KEY}" &&
+                        export GCP_CLIENT_EMAIL="${GCP_CLIENT_EMAIL}" &&
+                        export GCP_CLIENT_ID="${GCP_CLIENT_ID}" &&
+                        export GCP_AUTH_URI="${GCP_AUTH_URI}" &&
+                        export GCP_TOKEN_URI="${GCP_TOKEN_URI}" &&
+                        export GCP_AUTH_PROVIDER_X509_CERT_URL="${GCP_AUTH_PROVIDER_X509_CERT_URL}" &&
+                        export GCP_CLIENT_X509_CERT_URL="${GCP_CLIENT_X509_CERT_URL}" &&
+                        export GCP_UNIVERSE_DOMAIN="${GCP_UNIVERSE_DOMAIN}" &&
                         cd ~ &&
                         ls -al &&
-                        docker compose -f ${DOCKER_COMPOSE_FILE} down --remove-orphans&&
+                        docker compose -f ${DOCKER_COMPOSE_FILE} down --remove-orphans &&
                         docker compose -f ${DOCKER_COMPOSE_FILE} pull &&
                         docker compose -f ${DOCKER_COMPOSE_FILE} up -d'
                         """
