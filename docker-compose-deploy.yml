@@ -78,7 +78,7 @@ services:
 
   node:
     container_name: node
-    image: jungeunyoon/teama-backend:1.0.74
+    image: jungeunyoon/teama-backend:1.0.75
     restart: always
     environment:
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
@@ -120,7 +120,7 @@ services:
       - app-network
 
   front:
-    image: jungeunyoon/team-a-frontend:1.0.55
+    image: jungeunyoon/team-a-frontend:1.0.56
     container_name: front
     ports:
       - "3000:3000"
