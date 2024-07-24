@@ -69,6 +69,8 @@ pipeline {
                 script {
                     sshagent(['deploy-ssh']) {
                         sh """
+                        ls 
+                        pwd
                         scp -o StrictHostKeyChecking=no ~/Team-A ${DEPLOY_SERVER}:~/Team-A
                         ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} '
                         export MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" &&
