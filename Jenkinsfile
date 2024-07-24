@@ -69,7 +69,7 @@ pipeline {
                 script {
                     sshagent(['deploy-ssh']) {
                         sh """
-                        scp -o StrictHostKeyChecking=no TEAM-A ${DEPLOY_SERVER}:~/TEAM-A
+                        scp -o StrictHostKeyChecking=no Team-A ${DEPLOY_SERVER}:~/Team-A
                         ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} '
                         export MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" &&
                         export MYSQL_DATABASE="${MYSQL_DATABASE}" &&
@@ -104,10 +104,10 @@ pipeline {
                         export MONGODB_DOCKER_URL="${MONGODB_DOCKER_URL}" &&
                         cd ~ &&
                         ls -al &&
-                        docker compose -f TEAM-A/${DOCKER_COMPOSE_FILE} down --remove-orphans &&
-                        docker compose -f TEAM-A/${DOCKER_COMPOSE_FILE} pull &&
-                        docker compose -f TEAM-A/${DOCKER_COMPOSE_FILE} up -d'
-                        rm r -f TEAM-A
+                        docker compose -f Team-A/${DOCKER_COMPOSE_FILE} down --remove-orphans &&
+                        docker compose -f Team-A/${DOCKER_COMPOSE_FILE} pull &&
+                        docker compose -f Team-A/${DOCKER_COMPOSE_FILE} up -d'
+                        rm r -f Team-A
                         """
                     }
                 }
