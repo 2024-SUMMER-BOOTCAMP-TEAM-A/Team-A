@@ -71,7 +71,7 @@ pipeline {
                         sh """
                         ls 
                         pwd
-                        scp -o -r StrictHostKeyChecking=no . ${DEPLOY_SERVER}:~/Team-A
+                        scp -r -o StrictHostKeyChecking=no . ${DEPLOY_SERVER}:~/Team-A
                         ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} '
                         export MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" &&
                         export MYSQL_DATABASE="${MYSQL_DATABASE}" &&
