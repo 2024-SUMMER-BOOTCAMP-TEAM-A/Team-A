@@ -69,7 +69,7 @@ pipeline {
                 script {
                     sshagent(['deploy-ssh']) {
                         sh """
-                        scp -o StrictHostKeyChecking=no ${DOCKER_COMPOSE_FILE} ${DEPLOY_SERVER}:~/${DOCKER_COMPOSE_FILE}
+                        scp -o StrictHostKeyChecking=no ${TEAM-A} ${DEPLOY_SERVER}:~/${TEAM-A}
                         ssh -o StrictHostKeyChecking=no ${DEPLOY_SERVER} '
                         export MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" &&
                         export MYSQL_DATABASE="${MYSQL_DATABASE}" &&
@@ -106,7 +106,7 @@ pipeline {
                         ls -al &&
                         docker compose -f ${DOCKER_COMPOSE_FILE} down --remove-orphans &&
                         docker compose -f ${DOCKER_COMPOSE_FILE} pull &&
-                        docker compose -f ${DOCKER_COMPOSE_FILE} up -d'
+                        docker compose -f TEAM-A/${DOCKER_COMPOSE_FILE} up -d'
                         """
                     }
                 }
