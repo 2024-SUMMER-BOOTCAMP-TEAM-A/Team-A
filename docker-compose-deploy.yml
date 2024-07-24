@@ -78,7 +78,7 @@ services:
 
   node:
     container_name: node
-    image: jungeunyoon/teama-backend:1.0.75
+    image: jungeunyoon/teama-backend:1.0.78
     restart: always
     environment:
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
@@ -118,9 +118,86 @@ services:
     command: npm start # 컨테이너가 시작될 때 실행할 명령
     networks:
       - app-network
+    
+  prometheus:
+    image: prom/prometheus:v2.45.6
+    container_name: prometheus
+    volumes:
+      - prometheus_data:/prometheus
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    networks:
+      - app-network
+  
+  grafana:
+    image: grafana/grafana:9.5.20
+    container_name: grafana
+    volumes:
+      - grafana_provisioning:/etc/grafana/provisioning
+      - grafana_data:/var/lib/grafana
+    ports:
+      - "3001:3000"
+    networks:
+      - app-network
+  
+  mysql-exporter:
+    image: prom/mysqld-exporter:main
+    container_name: mysql-exporter
+    ports:
+      - "9104:9104" 
+    volumes:
+      - ./monitoring/mysql-exporter/my-config.conf:/cfg/my-config.conf
+    environment:
+      - DATA_SOURCE_NAME='root:1234@(db:3306)/mydatabase' 
+      - collect.info_schema.tablestats=true
+      - collect.info_schema.userstats=true
+      - collect.info_schema.query_response_time=true
+      - collect.auto_increment.columns=true
+      - collect.binlog_size=true
+      - collect.perf_schema.eventsstatements=true
+      - collect.perf_schema.eventswaits=true
+      - collect.perf_schema.file_events=true
+      - collect.perf_schema.indexiowaits=true
+      - collect.perf_schema.tableiowaits=true
+      - collect.perf_schema.tablelocks=true
+    networks:
+      - app-network
+    depends_on:
+      - db 
+    command:
+      - '--config.my-cnf=/cfg/my-config.conf' 
+    
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.49.1 #이미지
+    container_name: cadvisor
+    ports:
+      - "8080:8080" 
+    volumes:
+      - /:/rootfs:ro #읽기 전용 데이터 - 루트 파일 시스템
+      - /var/run:/var/run:rw #읽기 & 쓰기 - 런타임 데이터
+      - /sys:/sys:ro  #읽기 전용 데이터 - 커널, 하드웨어, 드라이버 정보 등등
+      - /var/lib/docker/:/var/lib/docker:ro #읽기 전용 데이터 - 도커 정보 데이터
+    networks:
+      - app-network 
+
+  node_exporter: 
+    image: quay.io/prometheus/node-exporter:v1.8.1 
+    container_name: node_exporter
+    ports:
+      - "9100:9100" 
+    command:
+      - '--path.rootfs=/host' 
+    restart: unless-stopped 
+    volumes:
+      - '/:/host:ro,rslave' 
+    networks:
+      - app-network 
 
   front:
-    image: jungeunyoon/team-a-frontend:1.0.56
+    image: jungeunyoon/team-a-frontend:1.0.60
     container_name: front
     ports:
       - "3000:3000"
@@ -132,5 +209,8 @@ networks:
     driver: bridge
 
 volumes:
+  grafana_provisioning:
+  grafana_data:
+  prometheus_data:
   db_data:
   mongodb:
