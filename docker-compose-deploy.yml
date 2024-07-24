@@ -197,7 +197,7 @@ services:
       - app-network 
 
   front:
-    image: jungeunyoon/team-a-frontend:1.0.62
+    image: jungeunyoon/team-a-frontend:1.0.63
     container_name: front
     ports:
       - "3000:3000"
