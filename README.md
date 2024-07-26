@@ -65,9 +65,12 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=nodejs,express,js&perline=3" alt="My Skills">
       </a>
+      <br>
       <a><img src="소켓"></a>
       <a><img src="지피티"></a>
-      <a><img src="일래븐랩스"></a>
+      <a><img src="달리3"></a>
+      <a><img src="![alt text](image.png)"></a>
+      <br>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis,gcp&perline=3" alt="Additional Skills">
       </a>
