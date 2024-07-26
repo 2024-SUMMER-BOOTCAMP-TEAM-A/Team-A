@@ -3,7 +3,7 @@
 <br> <image width=50%, height=50%, src="서비스이미지요">
 
 
-<br>💫 와라랄 그럴듯한 멘트로 서비스 소개 💫
+<br>💫 다양한 persona, 나만의 첫번째 친구 person-A 💫
 ##### URL : https://person-a.site
 </div>
 
@@ -29,17 +29,20 @@
 https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d349
 
 ## ✨ Demo
-|로그인 & 회원가입|
+|Demo|
 |------|
+|온보딩 페이지|
 |그림1|
-|인격선택|
+|캐릭터 선택 페이지|
 |그림2|
-|채팅|
+|채팅 페이지|
 |그림3|
-|상담일지|
+|STT 페이지|
 |그림4|
-|인기순위|
+|상담 일지 페이지|
 |그림5|
+|인기 순위 페이지|
+|그림6|
 
 ## 🏢 System Architechture
 <img src="https://github.com/user-attachments/assets/bc756677-37da-445d-b05b-45952b49ce3d">
