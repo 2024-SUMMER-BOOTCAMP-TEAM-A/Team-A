@@ -88,9 +88,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
         <img src="https://skillicons.dev/icons?i=grafana,nginx&perline=2&theme=light">
       </a>
       <br>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=elasticsearch&perline=1&theme=light">
-      </a>
+      <a><img src="https://github.com/user-attachments/assets/72bc3193-0794-41c3-826c-6bb233b00099" width="50" height="50"></a>
       <a><img src="https://github.com/user-attachments/assets/c312eaa7-db35-464e-b7b0-e7d6f0f41bf8" width="50" height="50"></a>
       <a><img src="https://github.com/user-attachments/assets/9b198231-a32a-4b71-814e-21521d4574d8" width="50" height="50"></a>
       <br>
