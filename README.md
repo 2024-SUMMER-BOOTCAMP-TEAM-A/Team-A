@@ -3,7 +3,7 @@
 <br> <image width=50%, height=50%, src="서비스이미지요">
 
 
-<br>💫 페르소나에서는 독특한 캐릭터를 사용하여 다양한 성격 특성을 표현함으로써 매력적이고 통찰력 있는 성격 상담을 제공합니다. 페르소나를 통해 자기 발견을 향한 여정을 떠나보세요. 💫
+<br>💫 와라랄 그럴듯한 멘트로 서비스 소개 💫
 ##### URL : https://person-a.site
 </div>
 
@@ -64,6 +64,36 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 <img src="https://github.com/user-attachments/assets/f60ba003-ca2b-4e2b-8e64-8b827e32b249">
 
 ## 🧑🏻‍💻 Monitoring
+<table align="center" style="border-collapse: collapse;">
+<tr>
+<th colspan="2" align="center">Monitoring</th>
+</tr>
+<tr>
+<td align="center">Prometheus Dashboard</td>
+<td align="center">Node Express Dashboard</td>
+</tr>
+<tr>
+<td align="center"><img src="https://github.com/user-attachments/assets/48d18d0f-f167-43c9-8dcb-77beb2f0b8c5" alt="Prometheus Dashboard" style="width: 100%; max-width: 600px;"></td>
+<td align="center"><img src="https://github.com/user-attachments/assets/75c7c68e-affe-43ba-801c-f21cecde6143" alt="Node Express Dashboard" style="width: 100%; max-width: 600px;"></td>
+</tr>
+<tr>
+<td align="center">MySQL Dashboard</td>
+<td align="center">Docker Dashboard</td>
+</tr>
+<tr>
+<td align="center"><img src="https://github.com/user-attachments/assets/cc576206-5092-442a-ae3b-1afdda0cc4bc" alt="MySQL Dashboard" style="width: 100%; max-width: 600px;"></td>
+<td align="center"><img src="https://github.com/user-attachments/assets/1ac670b9-8895-4361-a6cd-69cca37c13d1" alt="Docker Dashboard" style="width: 100%; max-width: 600px;"></td>
+</tr>
+<tr>
+<td align="center">Host Dashboard</td>
+<td align="center">ELK Stack Dashboard</td>
+</tr>
+<tr>
+<td align="center"><img src="https://github.com/user-attachments/assets/17039269-ab98-46e7-8d77-31c5831d3ecf" alt="Host Dashboard" style="width: 100%; max-width: 600px;"></td>
+<td align="center"><img src="https://github.com/user-attachments/assets/your-elk-image-link" alt="ELK Stack Dashboard" style="width: 100%; max-width: 600px;"></td>
+</tr>
+</table>
+
 
 ## 📂 Directory Structure
 <details>
@@ -321,9 +351,86 @@ yarn dev
 
 ## 👪 Member
 
-| Name  | <center>윤정은</center> | <center>김민지</center> | <center>김종연</center> | <center>임승제</center> | 
-| :----- | :---------------------------------------: |:----------------------------------:| :---------------------------------------: | :----------------------------------------: | 
-| Profile | <center><img width="100px" height="100px" src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/b07082d0-28f9-442a-9e8d-d46aeed4f9d4" /></center>|<center><img width="100px" height="100px" src="https://github.com/user-attachments/assets/bdb0da06-6ac3-4356-a4bd-482a5375dd54" /></center>|<center><img width="100px" height="100px" src="https://github.com/user-attachments/assets/831ef8d1-0674-42dd-88ac-dd2cb2eb90ae" /></center>|<center><img width="100px" height="100px" src="https://github.com/user-attachments/assets/a663dcf4-e128-4112-a1eb-58d040a1e81f" /></center>| 
-| role    | <center> Team Leader <br> Backend <br> Frontend <br> DevOps </center>   | <center> Backend <br> Frontend <br> DevOps </center>  | <center> Backend <br> Frontend <br> DevOps </center>  | <center> Frontend <br> Backend </center> |
-| GitHub | <center>&nbsp;&nbsp;&nbsp;[@jungeunyooon](https://github.com/jungeunyooon)&nbsp;&nbsp;&nbsp;</center> | <center>&nbsp;[@songwol38](https://github.com/songwol38)&nbsp;</center>| <center>&nbsp;&nbsp;&nbsp;&nbsp;[@qsc6543](https://github.com/qsc6543)&nbsp;&nbsp;&nbsp;&nbsp;</center>| <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[@seungje1217](https://github.com/seungje1217)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</center> |
+<table width="1000">
+<thead>
+</thead>
+<tbody>
+<tr>
+<th>Pictures</th>
+<td width="100" align="center">
+<a href="https://github.com/jungeunyooon">
+<img src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/b07082d0-28f9-442a-9e8d-d46aeed4f9d4" width="60" height="60">
+</a>
+</td>
+<td width="100" align="center">
+<a href="https://github.com/songwol38">
+<img src="https://github.com/user-attachments/assets/bdb0da06-6ac3-4356-a4bd-482a5375dd54" width="60" height="60">
+</a>
+</td>
+<td width="100" align="center">
+<a href="https://github.com/qsc6543">
+<img src="https://github.com/user-attachments/assets/831ef8d1-0674-42dd-88ac-dd2cb2eb90ae" width="60" height="60">
+</a>
+</td>
+<td width="100" align="center">
+<a href="https://github.com/seungje1217">
+<img src="https://github.com/user-attachments/assets/a663dcf4-e128-4112-a1eb-58d040a1e81f" width="60" height="60">
+</a>
+</td>
+</tr>
+<tr>
+<th>Name</th>
+<td width="100" align="center">윤정은</td>
+<td width="100" align="center">김민지</td>
+<td width="100" align="center">김종연</td>
+<td width="100" align="center">임승제</td>
+</tr>
+<tr>
+<th>Position</th>
+<td width="150" align="center">
+Team Leader<br>
+Backend<br>
+Frontend<br>
+DevOps<br>
+</td>
+<td width="150" align="center">
+Backend<br>
+Frontend<br>
+DevOps<br>
+</td>
+<td width="150" align="center">
+Backend<br>
+Frontend<br>
+DevOps<br>
+</td>
+<td width="150" align="center">
+Frontend<br>
+Backend<br>
+</td>
+</tr>
+<tr>
+<th>GitHub</th>
+<td width="100" align="center">
+<a href="https://github.com/jungeunyooon">
+<img src="http://img.shields.io/badge/jungeunyooon-green?style=social&logo=github"/>
+</a>
+</td>
+<td width="100" align="center">
+<a href="https://github.com/songwol38">
+<img src="http://img.shields.io/badge/songwol38-green?style=social&logo=github"/>
+</a>
+</td>
+<td width="100" align="center">
+<a href="https://github.com/qsc6543">
+<img src="http://img.shields.io/badge/qsc6543-green?style=social&logo=github"/>
+</a>
+</td>
+<td width="100" align="center">
+<a href="https://github.com/seungje1217">
+<img src="http://img.shields.io/badge/seungje1217-green?style=social&logo=github"/>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
 
