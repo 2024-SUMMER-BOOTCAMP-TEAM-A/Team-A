@@ -48,7 +48,43 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 <img src="https://github.com/user-attachments/assets/bc756677-37da-445d-b05b-45952b49ce3d">
 
 ## 💻 Tech stack
-[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+<table>
+  <tr>
+    <th>Front</th>
+    <th>Back</th>
+    <th>DevOps</th>
+    <th>Work</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=figma,react,vite,ts,styledcomponents&perline=3" alt="My Skills">
+      </a>
+    </td>
+        <td align="center">
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=nodejs,express,js&perline=3" alt="My Skills">
+      </a>
+      <a><img src="소켓"></a>
+      <a><img src="지피티"></a>
+      <a><img src="일래븐랩스"></a>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis,gcp&perline=3" alt="Additional Skills">
+      </a>
+    </td>
+        <td align="center">
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=docker,jenkins,prometheus,grafana,nginx,elasticsearch&perline=3" alt="My Skills"> 도커허브,로그스태쉬,키바나
+      </a>
+    </td>
+        <td align="center">
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=notion,github,postman&perline=3" alt="My Skills"> 슬랙,스웨거
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 ## 🗺️ ERD
 <img src="https://github.com/user-attachments/assets/49ee725f-b121-4827-bd1b-d6fd26de2855">
@@ -353,11 +389,8 @@ yarn dev
 ```
 
 ## 👪 Member
-
-<table width="1000">
+<table width="100%" align="center" style="border-collapse: collapse; text-align: center;">
 <thead>
-</thead>
-<tbody>
 <tr>
 <th>Pictures</th>
 <td width="100" align="center">
@@ -434,6 +467,7 @@ Backend<br>
 </a>
 </td>
 </tr>
-</tbody>
+</thead>
 </table>
+
 
