@@ -113,8 +113,10 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 <img src="https://github.com/user-attachments/assets/545875d6-52ea-4609-b267-b2fa180f4064">
 
 ## 📄 API 
-<img src="https://github.com/user-attachments/assets/84cf1ce4-56bf-4a8a-8b18-889b5434e5e4">
-<img src="https://github.com/user-attachments/assets/9d6c0342-4bf0-42b6-876b-71631085afd1">
+<div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/84cf1ce4-56bf-4a8a-8b18-889b5434e5e4" alt="Centered Image" style="display: block; margin: auto;">
+    <img src="https://github.com/user-attachments/assets/9d6c0342-4bf0-42b6-876b-71631085afd1" alt="Centered Image" style="display: block; margin: auto;">
+</div>
 
 ## 🪐 Flow Chart
 <img src="https://github.com/user-attachments/assets/c6590de5-ad2a-461b-a526-ed08689560c8">
