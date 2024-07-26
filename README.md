@@ -11,6 +11,7 @@
 - 기술 스택
 - ERD
 - mongodb
+- 모니터링
 - api (swagger)
 - 플로우차트
 - 시퀀스 다이어그램
