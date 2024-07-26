@@ -44,7 +44,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 ## 🏢 System Architechture
 <img src="https://github.com/user-attachments/assets/bc756677-37da-445d-b05b-45952b49ce3d">
 
-## 💻 Tech stack'
+## 💻 Tech stack
 [![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
 
 ## 🗺️ ERD
