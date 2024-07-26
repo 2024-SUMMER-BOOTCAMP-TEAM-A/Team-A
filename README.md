@@ -48,7 +48,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 <img src="https://github.com/user-attachments/assets/bc756677-37da-445d-b05b-45952b49ce3d">
 
 ## 💻 Tech stack
-<table>
+<table width="100%">
   <tr>
     <th>Front</th>
     <th>Back</th>
