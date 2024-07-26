@@ -62,7 +62,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
       </a>
       <br>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=ts,styledcomponents&perline=2&theme=light">
+        <img src="https://skillicons.dev/icons?i=ts,styledcomponents,d3&perline=3&theme=light">
       </a>
     </td>
     <td align="center">
