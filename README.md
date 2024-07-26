@@ -58,32 +58,51 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
   <tr>
     <td align="center">
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=figma,react,vite,ts,styledcomponents&perline=3" alt="My Skills">
-      </a>
-    </td>
-        <td align="center">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=nodejs,express,js&perline=3" alt="My Skills">
+        <img src="https://skillicons.dev/icons?i=figma,react,vite&perline=3&theme=light">
       </a>
       <br>
-      <a><img src="소켓"></a>
-      <a><img src="지피티"></a>
-      <a><img src="달리3"></a>
-      <a><img src="![alt text](image.png)"></a>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=ts,styledcomponents&perline=2&theme=light">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=nodejs,express,js&perline=3&theme=light">
+      </a>
+      <br>
+      <a><img src="https://github.com/user-attachments/assets/30dbe70b-69a3-4341-a5b0-4ad8444c6e40" width="50" height="50"></a>
+      <a><img src="https://github.com/user-attachments/assets/3ab36542-6b1e-4da5-bf11-768fd2bfbe48" width="50" height="50""></a>
+      <a><img src="https://github.com/user-attachments/assets/733df1a4-1fd2-4552-98d3-b1af8c49ea41" width="50" height="50"></a>
+      <a><img src="https://github.com/user-attachments/assets/a0558973-a015-467c-a427-3e85d995ecac" width="50" height="50"></a>
       <br>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis,gcp&perline=3" alt="Additional Skills">
+        <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis,gcp&perline=4&theme=light">
       </a>
     </td>
-        <td align="center">
+    <td align="center">
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=docker,jenkins,prometheus,grafana,nginx,elasticsearch&perline=3" alt="My Skills"> 도커허브,로그스태쉬,키바나
+        <img src="https://skillicons.dev/icons?i=docker,jenkins,prometheus&perline=3&theme=light">
       </a>
+      <br>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=grafana,nginx&perline=2&theme=light">
+      </a>
+      <br>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=elasticsearch&perline=1&theme=light">
+      </a>
+      <a><img src="https://github.com/user-attachments/assets/c312eaa7-db35-464e-b7b0-e7d6f0f41bf8" width="50" height="50"></a>
+      <a><img src="https://github.com/user-attachments/assets/9b198231-a32a-4b71-814e-21521d4574d8" width="50" height="50"></a>
+      <br>
     </td>
-        <td align="center">
+    <td align="center">
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=notion,github,postman&perline=3" alt="My Skills"> 슬랙,스웨거
+        <img src="https://skillicons.dev/icons?i=notion,github,postman&perline=3&theme=light">
       </a>
+      <br>
+      <a><img src="https://github.com/user-attachments/assets/54eab6b5-dedd-4313-ab8b-351115977ac8" width="50" height="50"></a>
+      <a><img src="https://github.com/user-attachments/assets/f5a6abcc-66e5-4b5b-a992-ef545ee072f3" width="50" height="50"></a>
+      <br>
     </td>
   </tr>
 </table>
