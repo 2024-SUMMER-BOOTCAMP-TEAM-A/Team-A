@@ -28,75 +28,59 @@
 ## 📝 Medium 
 https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d349
 
-## ✨ Demo
-</head>
-<body>
+</br>
 
-<table>
-  <thead>
+## ✨ Demo
+<table width="1000">
     <tr>
-      <th>Demo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>온보딩 페이지</td>
+      <th>온보딩 페이지</th>
     </tr>
     <tr>
-      <td>
+      <td style="text-align: center;">
         <img src="https://github.com/user-attachments/assets/cac86449-eeac-429f-976a-c044cb076ebf" alt="온보딩 페이지 이미지">
       </td>
     </tr>
     <tr>
-      <td>캐릭터 선택 페이지</td>
+      <th>캐릭터 선택 페이지</th>
     </tr>
     <tr>
-      <td>
+      <td style="text-align: center;">
         <img src="https://github.com/user-attachments/assets/8102c4a2-2087-4f8c-84d5-07b7463284ae" alt="캐릭터 선택 페이지 이미지">
       </td>
     </tr>
     <tr>
-      <td>채팅 페이지</td>
+      <th>채팅, STT 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="" alt="채팅 페이지 이미지">
+      <td style="text-align: center;">
+        <img src="https://github.com/user-attachments/assets/2ac61479-63c0-40e8-96cb-323c94e70c63" alt="채팅, STT 페이지 이미지">
       </td>
     </tr>
     <tr>
-      <td>STT 페이지</td>
+      <th>상담 일지 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="" alt="STT 페이지 이미지">
+      <td style="text-align: center;">
+        <img src="https://github.com/user-attachments/assets/173c096c-c0b4-406c-98a4-2bdc8b3350f1" alt="상담 일지 페이지 이미지">
       </td>
     </tr>
     <tr>
-      <td>상담 일지 페이지</td>
+      <th>인기 순위 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="" alt="상담 일지 페이지 이미지">
+      <td style="text-align: center;">
+        <img src="https://github.com/user-attachments/assets/c20cdb46-08fe-4732-ad54-db2a56c8ebcc" alt="인기 순위 페이지 이미지">
       </td>
     </tr>
-    <tr>
-      <td>인기 순위 페이지</td>
-    </tr>
-    <tr>
-      <td>
-        <img src="" alt="인기 순위 페이지 이미지">
-      </td>
-    </tr>
-  </tbody>
 </table>
-
-</body>
-</html>
+</br>
 
 
 
 ## 🏢 System Architechture
 <img src="https://github.com/user-attachments/assets/bc756677-37da-445d-b05b-45952b49ce3d">
+
+</br>
 
 ## 💻 Tech stack
 <table width="100%">
@@ -156,12 +140,18 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
   </tr>
 </table>
 
+</br>
+
 
 ## 🗺️ ERD
 <img src="https://github.com/user-attachments/assets/49ee725f-b121-4827-bd1b-d6fd26de2855">
 
+</br>
+
 ## 📚 MongoDB
 <img src="https://github.com/user-attachments/assets/545875d6-52ea-4609-b267-b2fa180f4064">
+
+</br>
 
 ## 📄 API 
 <div style="text-align: center;">
@@ -169,11 +159,17 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     <img src="https://github.com/user-attachments/assets/9d6c0342-4bf0-42b6-876b-71631085afd1" alt="Centered Image" style="display: block; margin: auto;">
 </div>
 
+</br>
+
 ## 🪐 Flow Chart
 <img src="https://github.com/user-attachments/assets/c6590de5-ad2a-461b-a526-ed08689560c8">
 
+</br>
+
 ## 📊 Sequence Diagram
 <img src="https://github.com/user-attachments/assets/f60ba003-ca2b-4e2b-8e64-8b827e32b249">
+
+</br>
 
 ## 🧑🏻‍💻 Monitoring
 <table align="center" style="border-collapse: collapse;">
@@ -206,6 +202,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 </tr>
 </table>
 
+</br>
 
 ## 📂 Directory Structure
 <details>
@@ -395,6 +392,8 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 </pre>
 </details>
 
+</br>
+
 ## 💌 How to Start
 ### Backend 
 ```
@@ -460,6 +459,7 @@ yarn add
 ```
 yarn dev
 ```
+</br>
 
 ## 👪 Member
 <table width="100%" align="center" style="border-collapse: collapse; text-align: center;">
@@ -543,4 +543,4 @@ Backend<br>
 </thead>
 </table>
 
-
+</br>
