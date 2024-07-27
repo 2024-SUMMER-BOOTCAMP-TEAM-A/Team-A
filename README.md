@@ -29,20 +29,92 @@
 https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d349
 
 ## ✨ Demo
-|Demo|
-|------|
-|온보딩 페이지|
-|그림1|
-|캐릭터 선택 페이지|
-|그림2|
-|채팅 페이지|
-|그림3|
-|STT 페이지|
-|그림4|
-|상담 일지 페이지|
-|그림5|
-|인기 순위 페이지|
-|그림6|
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Table</title>
+    <style>
+        table {
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Demo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>온보딩 페이지</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/cac86449-eeac-429f-976a-c044cb076ebf" alt="온보딩 페이지 이미지">
+      </td>
+    </tr>
+    <tr>
+      <td>캐릭터 선택 페이지</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="" alt="캐릭터 선택 페이지 이미지">
+      </td>
+    </tr>
+    <tr>
+      <td>채팅 페이지</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="" alt="채팅 페이지 이미지">
+      </td>
+    </tr>
+    <tr>
+      <td>STT 페이지</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="" alt="STT 페이지 이미지">
+      </td>
+    </tr>
+    <tr>
+      <td>상담 일지 페이지</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="" alt="상담 일지 페이지 이미지">
+      </td>
+    </tr>
+    <tr>
+      <td>인기 순위 페이지</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="" alt="인기 순위 페이지 이미지">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
+
+
 
 ## 🏢 System Architechture
 <img src="https://github.com/user-attachments/assets/bc756677-37da-445d-b05b-45952b49ce3d">
