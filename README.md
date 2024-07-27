@@ -32,50 +32,48 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 
 ## ✨ Demo
 
-<table width="1000">
+<table style="width: 100%; border-collapse: collapse; margin: 0; padding: 0;">
     <tr>
-      <th>온보딩 페이지</th>
+        <th style="text-align: center; padding: 0; margin: 0;">온보딩 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="https://github.com/user-attachments/assets/cac86449-eeac-429f-976a-c044cb076ebf" alt="온보딩 페이지 이미지">
-      </td>
+        <td style="padding: 0; margin: 0; width: 100%;">
+            <img src="https://github.com/user-attachments/assets/cac86449-eeac-429f-976a-c044cb076ebf" alt="온보딩 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+        </td>
     </tr>
     <tr>
-      <th>캐릭터 선택 페이지</th>
+        <th style="text-align: center; padding: 0; margin: 0;">캐릭터 선택 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="https://github.com/user-attachments/assets/8102c4a2-2087-4f8c-84d5-07b7463284ae" alt="캐릭터 선택 페이지 이미지">
-      </td>
+        <td style="padding: 0; margin: 0; width: 100%;">
+            <img src="https://github.com/user-attachments/assets/8102c4a2-2087-4f8c-84d5-07b7463284ae" alt="캐릭터 선택 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+        </td>
     </tr>
     <tr>
-      <th>채팅, STT 페이지</th>
+        <th style="text-align: center; padding: 0; margin: 0;">채팅, STT 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="https://github.com/user-attachments/assets/2ac61479-63c0-40e8-96cb-323c94e70c63" alt="채팅, STT 페이지 이미지">
-      </td>
+        <td style="padding: 0; margin: 0; width: 100%;">
+            <img src="https://github.com/user-attachments/assets/2ac61479-63c0-40e8-96cb-323c94e70c63" alt="채팅, STT 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+        </td>
     </tr>
     <tr>
-      <th>상담 일지 페이지</th>
+        <th style="text-align: center; padding: 0; margin: 0;">상담 일지 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="https://github.com/user-attachments/assets/173c096c-c0b4-406c-98a4-2bdc8b3350f1" alt="상담 일지 페이지 이미지">
-      </td>
+        <td style="padding: 0; margin: 0; width: 100%;">
+            <img src="https://github.com/user-attachments/assets/1293b0bd-c696-4cfd-8e63-db20d0cde623" alt="상담 일지 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+        </td>
     </tr>
     <tr>
-      <th>인기 순위 페이지</th>
+        <th style="text-align: center; padding: 0; margin: 0;">인기 순위 페이지</th>
     </tr>
     <tr>
-      <td>
-        <img src="https://github.com/user-attachments/assets/c20cdb46-08fe-4732-ad54-db2a56c8ebcc" alt="인기 순위 페이지 이미지">
-      </td>
+        <td style="padding: 0; margin: 0; width: 100%;">
+            <img src="https://github.com/user-attachments/assets/c20cdb46-08fe-4732-ad54-db2a56c8ebcc" alt="인기 순위 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+        </td>
     </tr>
 </table>
-</br>
-
 
 
 ## 🏢 System Architechture
