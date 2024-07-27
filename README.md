@@ -32,13 +32,13 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 
 ## ✨ Demo
 
-<table style="width: 100%; border-collapse: collapse; margin: 0; padding: 0;">
+<table width="1000">
     <tr>
         <th style="text-align: center; padding: 0; margin: 0;">온보딩 페이지</th>
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/cac86449-eeac-429f-976a-c044cb076ebf" alt="온보딩 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+            <img src="https://github.com/user-attachments/assets/cac86449-eeac-429f-976a-c044cb076ebf" alt="온보딩 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/8102c4a2-2087-4f8c-84d5-07b7463284ae" alt="캐릭터 선택 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+            <img src="https://github.com/user-attachments/assets/8102c4a2-2087-4f8c-84d5-07b7463284ae" alt="캐릭터 선택 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
@@ -54,7 +54,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/2ac61479-63c0-40e8-96cb-323c94e70c63" alt="채팅, STT 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+            <img src="https://github.com/user-attachments/assets/2ac61479-63c0-40e8-96cb-323c94e70c63" alt="채팅, STT 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/1293b0bd-c696-4cfd-8e63-db20d0cde623" alt="상담 일지 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+            <img src="https://github.com/user-attachments/assets/1293b0bd-c696-4cfd-8e63-db20d0cde623" alt="상담 일지 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
@@ -70,11 +70,10 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/c20cdb46-08fe-4732-ad54-db2a56c8ebcc" alt="인기 순위 페이지 이미지" style="width: 100%; height: auto; display: block; border: none; padding: 0; margin: 0;">
+            <img src="https://github.com/user-attachments/assets/c20cdb46-08fe-4732-ad54-db2a56c8ebcc" alt="인기 순위 페이지 이미지" width="1000">
         </td>
     </tr>
 </table>
-
 
 ## 🏢 System Architechture
 <img src="https://github.com/user-attachments/assets/bc756677-37da-445d-b05b-45952b49ce3d">
@@ -148,16 +147,15 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 </br>
 
 ## 📚 MongoDB
-<img src="https://github.com/user-attachments/assets/545875d6-52ea-4609-b267-b2fa180f4064">
+<img src="https://github.com/user-attachments/assets/545875d6-52ea-4609-b267-b2fa180f4064" width="700" height="800">
 
 </br>
 
 ## 📄 API 
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/84cf1ce4-56bf-4a8a-8b18-889b5434e5e4" alt="Centered Image" style="display: block; margin: auto;">
-    <img src="https://github.com/user-attachments/assets/9d6c0342-4bf0-42b6-876b-71631085afd1" alt="Centered Image" style="display: block; margin: auto;">
+    <img src="https://github.com/user-attachments/assets/84cf1ce4-56bf-4a8a-8b18-889b5434e5e4" width="700" height="800">
+    <img src="https://github.com/user-attachments/assets/9d6c0342-4bf0-42b6-876b-71631085afd1" width="700" height="800">
 </div>
-
 </br>
 
 ## 🪐 Flow Chart
