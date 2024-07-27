@@ -29,27 +29,6 @@
 https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d349
 
 ## ✨ Demo
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Table</title>
-    <style>
-        table {
-            width: 100%;
-            text-align: center;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
 </head>
 <body>
 
@@ -73,7 +52,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
       <td>
-        <img src="" alt="캐릭터 선택 페이지 이미지">
+        <img src="https://github.com/user-attachments/assets/8102c4a2-2087-4f8c-84d5-07b7463284ae" alt="캐릭터 선택 페이지 이미지">
       </td>
     </tr>
     <tr>
