@@ -187,7 +187,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
 </tr>
 <tr>
 <td align="center"><img src="https://github.com/user-attachments/assets/cc576206-5092-442a-ae3b-1afdda0cc4bc" alt="MySQL Dashboard" style="width: 100%; max-width: 600px;"></td>
-<td align="center"><img src="https://github.com/user-attachments/assets/ac0114f8-9984-4f27-b2b5-e502242dd526" alt="Docker Dashboard" style="width: 100%; max-width: 600px;"></td>
+<td align="center"><img src="https://github.com/user-attachments/assets/4640d410-6ae6-4c86-9e9a-5e44a94e5ec1" alt="Docker Dashboard" style="width: 100%; max-width: 600px;"></td>
 </tr>
 <tr>
 <td align="center">Host Dashboard</td>
