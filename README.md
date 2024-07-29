@@ -62,7 +62,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="상담일지" alt="상담 일지 페이지 이미지" width="1000">
+            <img src="https://github.com/user-attachments/assets/373521e3-f642-47d2-8ca1-aeac11652d51" alt="상담 일지 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
