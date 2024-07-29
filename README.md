@@ -38,7 +38,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/cac86449-eeac-429f-976a-c044cb076ebf" alt="온보딩 페이지 이미지" width="1000">
+            <img src="https://github.com/user-attachments/assets/46f24cbc-526f-4861-b8d1-0773f5e33a01" alt="온보딩 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/8102c4a2-2087-4f8c-84d5-07b7463284ae" alt="캐릭터 선택 페이지 이미지" width="1000">
+            <img src="https://github.com/user-attachments/assets/08ff5481-8922-481a-91ad-7298c16d6d46" alt="캐릭터 선택 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/1293b0bd-c696-4cfd-8e63-db20d0cde623" alt="상담 일지 페이지 이미지" width="1000">
+            <img src="상담일지" alt="상담 일지 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/c20cdb46-08fe-4732-ad54-db2a56c8ebcc" alt="인기 순위 페이지 이미지" width="1000">
+            <img src="https://github.com/user-attachments/assets/a32fbb76-905e-4aa7-958f-449cd7c63186" alt="인기 순위 페이지 이미지" width="1000">
         </td>
     </tr>
 </table>
