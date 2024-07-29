@@ -54,7 +54,7 @@ https://medium.com/@angal2310/siliconvalley-summer-bootcamp-person-a-e12d2177d34
     </tr>
     <tr>
         <td style="padding: 0; margin: 0; width: 100%;">
-            <img src="https://github.com/user-attachments/assets/2ac61479-63c0-40e8-96cb-323c94e70c63" alt="채팅, STT 페이지 이미지" width="1000">
+            <img src="채팅페이지이미지요" alt="채팅, STT 페이지 이미지" width="1000">
         </td>
     </tr>
     <tr>
