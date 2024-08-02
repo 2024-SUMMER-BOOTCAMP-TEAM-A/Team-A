@@ -1,6 +1,6 @@
 ### <p align = center>2024 Techeer Summer BootCamp <p>
 <div align=center>
-<br> <image width=50%, height=50%, src="https://github.com/user-attachments/assets/ad195aec-fd16-460b-8622-047957898fa8">
+<br> <image width=50%, height=50%, src="https://github.com/user-attachments/assets/23d0eb1b-2f0f-46a0-8863-97081334c8ac">
 
 
 <br>💫 다양한 persona, 나만의 첫번째 친구 person-A 💫
