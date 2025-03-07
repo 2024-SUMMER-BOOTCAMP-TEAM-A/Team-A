@@ -3,7 +3,7 @@
 <br> <image width=50%, height=50%, src="https://github.com/user-attachments/assets/23d0eb1b-2f0f-46a0-8863-97081334c8ac">
 
 
-<br>💫 다양한 persona, 나만의 첫번째 친구 person-A 💫
+<br>💫 다양한 persona, 나만의 첫 번째 친구 person-A 💫
 ##### URL : https://person-a.site
 </div>
 
